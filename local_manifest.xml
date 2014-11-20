@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- remove CM repos -->
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="CyanogenMod/android_build" />
+
+  <!-- Touchpro -->
+  <project path="device/lge/x5" name="touchpro/android_device_lge_x5" remote="github" revision="master" />
+  <project path="vendor/lge/proprietary" name="touchpro/vendor_lge_proprietary" remote="github" revision="master" />
+  <project path="hardware/qcom/fm" name="touchpro/android_hardware_qcom_fm" remote="github" revision="cm-11.0" />
+  <project path="build" name="touchpro/android_build" remote="github" revision="master" />
+  <project path="frameworks/av" name="touchpro/android_frameworks_av" remote="github" revision="master" />
 </manifest>
