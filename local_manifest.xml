@@ -14,4 +14,5 @@
   <project path="kernel/lge/x5" name="chevanlol360/Kernel_LGE_X5" remote="github" revision="ZV4_Zippy-V2.2" />
   <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-4.4" />
   <project path="bootable/recovery-philz" name="PhilZ-cwm6/philz_touch_cwm6" remote="github" revision="cm-11.0" />
+  <project path=".repo/local_manifests" name="touchpro/android_local_manifest" remote="github" revision="master" />
 </manifest>
