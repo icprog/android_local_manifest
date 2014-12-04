@@ -2,8 +2,8 @@
 <manifest>
 
   <!-- remove CM repos -->
-  <remove-project name="CyanogenMod/android_frameworks_av" />
-  <remove-project name="CyanogenMod/android_build" />
+  <!--remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="CyanogenMod/android_build" /> -->
 
   <!-- Touchpro -->
   <project path="device/lge/x5" name="touchpro/android_device_lge_x5" remote="github" revision="master" />
@@ -11,9 +11,10 @@
   <project path=".repo/local_manifests" name="touchpro/android_local_manifest" remote="github" revision="master" />
   
   <!-- Shinobisoft -->
-  <project path="hardware/qcom/fm" name="shinobisoft/android_hardware_qcom_fm" remote="github" revision="cm-11.0" />
+<!--
   <project path="build" name="shinobisoft/android_build" remote="github" revision="master" />
-  <project path="frameworks/av" name="shinobisoft/android_frameworks_av" remote="github" revision="master" />
+  <project path="frameworks/av" name="shinobisoft/android_frameworks_av" remote="github" revision="master" /-->
+  <project path="hardware/qcom/fm" name="shinobisoft/android_hardware_qcom_fm" remote="github" revision="cm-11.0" />
   
   <!-- Chevanlol360 -->
   <project path="kernel/lge/x5" name="chevanlol360/Kernel_LGE_X5" remote="github" revision="ZV4_Zippy-V2.2" />
