@@ -1,18 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Touchpro -->
-  <project path="device/lge/x5" name="touchpro/android_device_lge_x5" remote="github" revision="master" />
-  <project path="vendor/lge/x5" name="touchpro/android_vendor_lge_x5" remote="github" revision="master" />
-  
-  <!-- Shinobisoft -->
-  <project path="hardware/qcom/fm" name="shinobisoft/android_hardware_qcom_fm" remote="github" revision="cm-11.0" />
-  
-  <!-- Chevanlol360 -->
-  <project path="kernel/lge/x5" name="chevanlol360/Kernel_LGE_X5" remote="github" revision="ZV4_Zippy-V2.2" />
-  
-  <!-- Recoveries -->
-  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-4.4" />
-  <project path="bootable/recovery-philz" name="PhilZ-cwm6/philz_touch_cwm6" remote="github" revision="cm-11.0" />
-  
 </manifest>
