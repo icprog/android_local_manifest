@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!-- remove qemu-kernel since its broke -->
+<remove-project name="platform/prebuilts/qemu-kernel" />
+
 <!-- Spock1104 -->
 <project path="kernel/lge/msm8226" name="spock1104/android_kernel_lge_msm8226" revision="cm-13.0" />
 
