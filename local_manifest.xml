@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!-- remove qemu-kernel since its broke -->
+<remove-project name="platform/prebuilts/qemu-kernel" />
+
+<!-- Spock1104 -->
+<project path="kernel/lge/msm8226" name="spock1104/android_kernel_lge_msm8226" revision="cm-13.0" />
+
+<!-- Whoshotjr2006 -->
+<project path="device/lge/x5" name="touchpro/android_device_lge_x5" revision="master" />
+<project path="device/lge/msm8226-common" name="touchpro/android_device_lge_msm8226-common" revision="cm-13.0" />
+<project path="vendor/lge/x5" name="touchpro/vendor_lge_x5" revision="cm-13.0" />
+<project path="vendor/lge/msm8226-common" name="touchpro/android_vendor_lge_msm8226-common" revision="master" />
+
+<!-- Required extra CM repos -->
+<project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-13.0" />
+<project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" revision="cm-13.0" />
+
 </manifest>
