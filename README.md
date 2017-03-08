@@ -1,4 +1,4 @@
 android_local_manifest
 ======================
 
-manifest for building cm11 for x5 from source
+manifest for building lineageos 13 for h631 from source

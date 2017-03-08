@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Android Hardware Qcom -->
+  <project path="hardware/qcom/audio-caf" name="touchpro/android_hardware_qcom_audio-caf" revision="master" />
+  <project path="hardware/qcom/display-caf" name="touchpro/android_hardware_qcom_display-caf" remote="github" revision="master" />
+
+  <!-- Touchpro -->
+  <project path="device/lge/msm8916-common" name="touchpro/android_device_lge_msm8916-common" remote="github" revision="lineageos13" />
+  <project path="device/lge/h631" name="touchpro/android_device_lge_h631" remote="github" revision="master" />
+  <project path="device/lge/g4stylus-common" name="touchpro/android_device_lge_g4stylus-common" revision="master" />
+  <project path="kernel/lge/stock-v20k" name="touchpro/android_kernel_lge_stock" revision="stock-v20k" />
+
 </manifest>
